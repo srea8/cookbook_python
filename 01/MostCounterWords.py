@@ -14,6 +14,11 @@ words = [
 from collections import Counter
 word_counts = Counter(words)
 top_three = word_counts.most_common(3)
+
+print(word_counts)
+word_counts.update(words)     #增加
+print(word_counts)
+word_counts.subtract(words)      #减少
 print(word_counts)
 print(word_counts.get('look'))
 print(word_counts.popitem())
