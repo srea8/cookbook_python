@@ -1,7 +1,15 @@
-#!/usr/bin/env python
-#_*_ coding:utf-8 _*_
-#Author:Srea
-#你想构造一个字典，它是另外一个字典的子集。
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Srea
+# @Date:   2019-09-21 14:17:57
+# @Last Modified by:   srea
+# @Last Modified time: 2019-09-21 16:10:00
+
+
+#****************************#
+##你想构造一个字典，它是另外一个字典的子集。
+#****************************#
+
 
 prices = {
     'ACME': 45.23,

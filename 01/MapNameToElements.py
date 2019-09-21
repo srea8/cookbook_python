@@ -3,11 +3,13 @@
 # @Author: Srea
 # @Date:   2019-09-21 15:13:30
 # @Last Modified by:   srea
-# @Last Modified time: 2019-09-21 15:44:29
+# @Last Modified time: 2019-09-21 16:10:40
 
+#****************************#
 # 你有一段通过下标访问列表或者元组中元素的代码，
 # 但是这样有时候会使得你的代码难以阅读， 
 # 于是你想通过名称来访问元素。
+#****************************#
 
 from collections import namedtuple
 

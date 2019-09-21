@@ -1,4 +1,14 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Srea
+# @Date:   2019-09-08 17:21:25
+# @Last Modified by:   srea
+# @Last Modified time: 2019-09-21 16:09:33
+
+
+#****************************#
 ####OrderedDict 内部维护着一个根据键插入顺序排序的双向链表
+#****************************#
 
 from collections import OrderedDict
 import json

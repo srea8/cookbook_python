@@ -1,4 +1,14 @@
-# 怎样找出一个序列中出现次数最多的元素呢？
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Srea
+# @Date:   2019-09-21 14:12:12
+# @Last Modified by:   srea
+# @Last Modified time: 2019-09-21 16:08:17
+
+
+#****************************#
+## 怎样找出一个序列中出现次数最多的元素呢？
+#****************************#
 
 words = [
     'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',

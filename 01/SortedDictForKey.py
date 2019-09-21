@@ -1,4 +1,14 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Srea
+# @Date:   2019-09-21 14:12:12
+# @Last Modified by:   srea
+# @Last Modified time: 2019-09-21 16:09:43
+
+
+#****************************#
 #你有一个字典列表，你想根据某个或某几个字典字段来排序这个列表
+#****************************#
 
 
 from operator import itemgetter     #支持原生比较的字典

@@ -1,5 +1,15 @@
-# -*- coding: UTF-8 -*-
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Srea
+# @Date:   2019-09-08 16:55:05
+# @Last Modified by:   srea
+# @Last Modified time: 2019-09-21 16:08:30
+
+
+#****************************#
 # 实现一个键对应多个值的字典
+#****************************#
+
 
 from collections import defaultdict
 

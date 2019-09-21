@@ -1,5 +1,15 @@
-#_*_ coding:utf-8 _*_
-# 你有一个数据序列，想利用一些规则从中提取出需要的值或者是缩短序列
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Srea
+# @Date:   2019-09-21 14:12:12
+# @Last Modified by:   srea
+# @Last Modified time: 2019-09-21 16:07:38
+
+
+#****************************#
+## 你有一个数据序列，想利用一些规则从中提取出需要的值或者是缩短序列
+#****************************#
+
 mylist = [1,23,41,4124,-5,15,1,-431,2,-3,123]
 print([n for n in mylist if n>0 and n < 100])
 pos = (n for n in mylist if n>0 and n < 100)
