@@ -3,7 +3,7 @@
 # @Author: Srea
 # @Date:   2019-09-24 14:06:06
 # @Last Modified by:   shenzhijie
-# @Last Modified time: 2019-09-24 15:50:04
+# @Last Modified time: 2019-09-24 16:42:52
 
 #****************************#
 #有一些长字符串，想以指定的列宽将它们重新格式化
@@ -25,5 +25,5 @@ print(textwrap.fill(s,70,initial_indent = '   13  '))    #在段首插入
 print(textwrap.fill(s,70,subsequent_indent=' 12 '))     #除第一行外其他行插入
 
 
-import os
-print(os.get_terminal_size().columns)   #OSError: [WinError 6] 句柄无效
+# import os
+# print(os.get_terminal_size().columns)   #OSError: [WinError 6] 句柄无效
