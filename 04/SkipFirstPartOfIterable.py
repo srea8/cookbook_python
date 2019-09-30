@@ -3,7 +3,7 @@
 # @Author: Srea
 # @Date:   2019-09-29 11:01:41
 # @Last Modified by:   shenzhijie
-# @Last Modified time: 2019-09-29 17:40:01
+# @Last Modified time: 2019-09-30 17:14:22
 
 #****************************#
 #想遍历一个可迭代对象，但是它开始的某些元素你并不感兴趣，想跳过它们
@@ -38,4 +38,8 @@ with open(path,encoding='utf-8') as f:
 
 
 
-# 使用start
+# 使用startswith(),可以将全部为#号开头的行去除，和预期只去除文件开头行为＃的结果不符
+with open(path,encoding='utf-8') as f:
+	lines = (line for line in f if not line.startswith('#'))
+	for line in lines:
+		print (line)  

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # @Author: Srea
 # @Date:   2019-09-21 18:06:04
-# @Last Modified by:   srea
-# @Last Modified time: 2019-09-22 12:01:57
+# @Last Modified by:   shenzhijie
+# @Last Modified time: 2019-09-30 18:14:32
 
 
 #****************************#
@@ -13,14 +13,14 @@
 #fnmatchcase()完全使用你的模式大小写匹配
 #****************************#
 
-from fnmatch import fnmatch,fnmatchcase
+from fnmatch import fnmatch,fnmatchcase,filter
 print(fnmatch('foo.txt','*.txt'))
 print(fnmatch('Dat45.csv', 'Dat[0-9]*'))
 
 names = ['Dat1.csv', 'Dat2.csv', 'config.ini', 'foo.py']
 print([name for name in names if fnmatch(name, 'Dat*.csv')]) 
 print([name for name in names if fnmatch(name, 'Dat*.cSv')])#windows可以找到，mac不能找到
-
+print(filter(names,'Dat*.csv'))    ####等价于fnmatch一样的效果
 
 ##fnmatch  和  fnmatchcase的区别
 print(fnmatch('foo.txt','*.txt'))   #true
