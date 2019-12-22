@@ -3,7 +3,7 @@
 # @Author: Srea
 # @Date:   2019-12-02 22:35:41
 # @Last Modified by:   srea
-# @Last Modified time: 2019-12-02 23:07:58
+# @Last Modified time: 2019-12-21 22:02:56
 
 #****************************#
 #你有一个被其他python代码使用的callable对象，可能是一个回调函数或者是一个处理器， 但是它的参数太多了，导致调用时出错
@@ -34,6 +34,7 @@
 
 
 ###partial() 通常被用来微调其他库函数所使用的回调函数的参数
+###Pool异步调用
 import logging
 from multiprocessing import Pool
 from functools import partial
