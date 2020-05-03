@@ -1,0 +1,27 @@
+CRITICAL:root:[2020-05-03 15:47:25] -- Host www.python.org unknown
+ERROR:root:[2020-05-03 15:47:25] -- Couldn't find 'spam'
+WARNING:root:[2020-05-03 15:47:25] -- Feature is deprecated
+INFO:root:[2020-05-03 15:47:25] -- Opening file 'data.csv', mode='r'
+DEBUG:root:[2020-05-03 15:47:25] -- Got here
+CRITICAL:root:[2020-05-03 15:48:04] -- Host www.python.org unknown
+ERROR:root:[2020-05-03 15:48:04] -- Couldn't find 'spam'
+CRITICAL:2020-05-03 15:51:18,012:[2020-05-03 15:51:18] -- Host www.python.org unknown
+ERROR:2020-05-03 15:51:18,013:[2020-05-03 15:51:18] -- Couldn't find 'spam'
+CRITICAL:2020-05-03 15:51:59,399:Host www.python.org unknown
+ERROR:2020-05-03 15:51:59,399:Couldn't find 'spam'
+CRITICAL:2020-05-03 15:53:58,297:Host www.python.org unknown
+ERROR:2020-05-03 15:53:58,298:Couldn't find 'spam'
+INFO:root:[2020-05-03 15:59:18] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:00:31] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:04:51] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:06:05] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:06:22] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:06:40] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:07:15] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:07:17] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:07:22] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:07:30] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:07:46] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:08:46] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:08:51] -- Opening file 'data.csv', mode='r'
+INFO:root:[2020-05-03 16:10:33] -- Opening file 'data.csv', mode='r'
